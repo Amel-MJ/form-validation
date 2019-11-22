@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+form label{
+    margin: 15px;
+    width: 250px;
+    color: white;
+    font: status-bar;
+}
+
+form input,textarea{
+    margin-top: 10px;
+    background-color: #494458;
+    border-radius: 3px;
+    height: 30px;
+    width: 250px;
+    color: white;
+}
+textarea{
+    height: 50px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
